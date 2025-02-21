@@ -1,11 +1,13 @@
 .wrapper {
     min-width: 100px;
-    padding: 9px 16px;
+    padding: 13px 16px;
     border-radius: 4px;
     font-size: 1.6rem;
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
+    // position: absolute;
+    // right: 0;
 }
 .primary {
     position: relative;
@@ -16,6 +18,10 @@
     border-radius: 3px;
     background-color: transparent;
     color: white;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    display: flex;
 }
 .primary::before,
 .primary::after {

@@ -4,6 +4,7 @@ import Menu from './menu/Menu';
 import routesConfig from '~/config/routes';
 import classNames from 'classnames/bind';
 import Button from '~/component/Button';
+import Onback from '~/component/BackButton';
 
 const cx = classNames.bind(styles);
 
@@ -12,6 +13,7 @@ function Header() {
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
                 <Menu>
+                    <Onback />
                     <MenuItem to={routesConfig.home} title="Trang chủ" />
                     <MenuItem to={routesConfig.menu} title="menu" />
                     <MenuItem to={routesConfig.table} title="đặt bàn" />
