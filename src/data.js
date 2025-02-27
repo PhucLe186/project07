@@ -77,7 +77,7 @@ export const data = [
     catagoryName:'Montrangmieng',
     courseName:'Bánh Rán Vừng',
     metaDiscription: 'Món ăn đặc trưng ngon miệng',
-    imageUrl: require('./image/bảnhanvung.jpg')
+    imageUrl: require('./image/baảnhanvung.jpg')
 
 },
 {
