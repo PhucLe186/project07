@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8B0000;
+}
+.product{
+    padding: 50px;
+}
+
+.product-item{
+    padding: 10px;
+}
+
+.order-button {
+    background-color: #e53e3e; /* Màu đỏ */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-button:hover {
+    background-color: #c53030;
+    transform: scale(1.05);
+  }
+  
+  .order-button:active {
+    transform: scale(0.95);
+  }
+
+  .product-item .card-img-top {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px; 
+  }
+  .flex.justify-center.gap-4.mb-6 {
+    display: flex;
+    justify-content: center;
+    gap: 16px; 
+    margin-bottom: 24px;
+  }
+  
+  /* Nút phân loại */
+  button {
+    font-size: 1.2rem; 
+    padding: 12px 24px;
+    border-radius: 999px; 
+    font-weight: bold;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  button.bg-red-700 {
+    background-color: #b91c1c;
+    color: white !important;
+    transform: scale(1.1);
+  }
+  
+  
+  button:hover {
+    background-color: #dc2626 !important;
+    transform: scale(1.05);
+  }
+  
+  
+  button {
+    border: 2px solid white;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+  }
+  body {
+    color: white;
+  }
+  
+ 
+  .container, .product, .card-body, .card-title, .card-text, button {
+    color: white;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6, p, span, a, button {
+    color: white !important;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    height: 100%; 
+  }
